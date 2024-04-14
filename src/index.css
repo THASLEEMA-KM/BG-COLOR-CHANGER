@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orchid;
+    background-color: lavender;
+    
+  }
+  #head1
+  {
+    font-family: "Pacifico", cursive;
+    font-size: 80px;
+  }
+  #head2
+  {
+    font-family: "Satisfy", cursive;
+    font-size: 60px;
+  }
