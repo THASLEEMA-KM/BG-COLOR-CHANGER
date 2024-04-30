@@ -16,10 +16,75 @@
   #head1
   {
     font-family: "Pacifico", cursive;
-    font-size: 80px;
+    font-size: 60px;
   }
   #head2
   {
     font-family: "Satisfy", cursive;
-    font-size: 60px;
+    font-size: 40px;
+  }
+
+  .first{
+    display: flex;
+  }
+/* 
+  @media screen and (max-width: 600px) {
+    .btn {
+      margin-right: 0 !important;
+    }
+  } */
+  
+  @media screen and (max-width:600px) {
+    .first{
+      display: grid;
+      justify-content: center;
+    }
+    #head1
+    {
+      font-family: "Pacifico", cursive;
+      font-size: 50px;
+      margin-top: 10%;
+     
+    }
+    #head2
+    {
+      font-family: "Satisfy", cursive;
+      font-size: 35px;
+      margin-top: 10px;
+     
+      
+    }
+ 
+    
+  }
+  @media screen and (max-width:450px) {
+    .first{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      margin-left: 50px;
+      margin-bottom: 10px;
+    }
+    .heading
+    {
+      margin-left: 10px;
+    }
+    #head1
+    {
+      font-family: "Pacifico", cursive;
+      font-size: 30px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 60%;
+      margin-bottom: 0px;
+    }
+    #head2
+    {
+      font-family: "Satisfy", cursive;
+      font-size: 25px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 0px
+    }
+    
   }
